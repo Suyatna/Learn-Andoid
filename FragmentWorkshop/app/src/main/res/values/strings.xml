@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentWorkshop</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_fragment2">Fragment2</string>
+    <string name="str_fragment1">Fragment1</string>
+</resources>

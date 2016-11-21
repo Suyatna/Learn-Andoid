@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.suyatna.Relativelayout.MainActivity">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/Suyatna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Logo"
+        android:textColorHint="@color/colorAccent"
+        android:hint="Suyatna"/>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Pria"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:hint="Email"/>
+
+    <RadioButton
+        android:id="@+id/Pria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Suyatna"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textSize="25dp"
+        android:text="Pria" />
+
+    <RadioButton
+        android:id="@+id/Wanita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Suyatna"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_toRightOf="@+id/Pria"
+        android:textSize="25dp"
+        android:text="Wanita" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textColorHint="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Email"
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:hint="Password" />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Password"
+        android:text="Saya merupakan anggota Codelabs"/>
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorGreen"/>
+
+</RelativeLayout>
