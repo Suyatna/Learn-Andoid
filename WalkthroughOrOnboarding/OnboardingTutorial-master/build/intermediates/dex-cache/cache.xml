@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\exploded-aar\com.ogaclejapan.smarttablayout\library\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6d65140c837f37580ee758c4f86906314580708f">
+        <dex dex="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\pre-dexed\debug\classes-376e1bcaa02f90966a05065f706d226903687594.jar" />
+    </item>
+    <item
+        jar="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\exploded-aar\com.github.navasmdc\MaterialDesign\1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\pre-dexed\debug\classes-c973a95bc6386dac32e979ab7bc59b0f2924edea.jar" />
+    </item>
+    <item
+        jar="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\pre-dexed\debug\classes-958340fc95ee81a3466a3cdbff8f2f5c3d344d0d.jar" />
+    </item>
+    <item
+        jar="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-ab192b30435dea823bc2389141f50967a296cbb7.jar" />
+    </item>
+    <item
+        jar="D:\Tool_Apps\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-c61843452f2b32d3c9cb150f7deb0311acc6bf27.jar" />
+    </item>
+    <item
+        jar="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\StudyGallery\AndroidStudioProjects\Sample\OnboardingTutorial-master\app\build\intermediates\pre-dexed\debug\classes-e495baa463edb132c022b8944b273bfe9600e3ab.jar" />
+    </item>
+
+</items>

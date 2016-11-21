@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context="id.or.codelabs.introswipe.RegistLoginActivity">
+    <LinearLayout
+        android:baselineAligned="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/navigation"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="30dp"
+            android:text="LOGIN"
+            android:textColor="@android:color/white"
+            android:id="@+id/button_login_registlogin"
+            android:layout_gravity="left"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="30dp"
+            android:layout_gravity="right"
+            android:text="REGISTER"
+            android:textColor="@android:color/white"
+            android:src="@mipmap/ic_navigate_next_white"
+            android:id="@+id/button_regist_registlogin"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+</RelativeLayout>
